@@ -9,7 +9,7 @@ public class UpdateFrame : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        //修改当前的FPS
+        // Change the current FPS
         Application.targetFrameRate = targetFrameRate;
     }
 
